@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>每羊餐厅管理系统</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-reset.css" rel="stylesheet">
+    <link href="css/bootstrap-fileupload.css" rel="stylesheet">
+    <!--external css-->
+    <link href="fonts/font-awesome.min.css" rel="stylesheet" />
+    <!--right slidebar-->
+    <link href="css/slidebars.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style-responsive.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/hj-re.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 tooltipss and media queries -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <section id="container" >
+    <!--header start-->
+    <header class="header white-bg">
+        <div class="sidebar-toggle-box">
+            <div class="fa fa-bars tooltips" data-placement="right" data-original-title="管理导航"><i class="icon-th-list"></i></div>
+        </div>
+        <!--logo start-->
+        <a href="#" class="logo">每羊餐厅<span>管理系统<i class="icon-th-list"></i></span> —— 餐厅信息管理</a>
+        <!--logo end-->
+    </header>
+    <!--header end-->
+    <!--sidebar start-->
+    <aside>
+        <div id="sidebar"  class="nav-collapse ">
+            <!-- sidebar menu start-->
+            <ul class="sidebar-menu" id="nav-accordion">
+
+               <li class="sub-menu">
+                    <a href="javascript:;" >
+                        <i class="fa fa-book"></i>
+                        <span>菜品信息管理</span>
+                    </a>
+                    <ul class="sub">
+                        <li><a  href="现有菜品管理.html">现有菜品管理</a></li>
+                        <li><a  href="添加新菜品.html">添加新菜品</a></li>
+                        <li><a  href="菜品分类管理.html">菜品分类管理</a></li>
+                    </ul>
+                </li>
+
+                <li class="sub-menu">
+                    <a  href="javascript:;" >
+                        <i class="fa fa-gear"></i>
+                        <span>厨师信息管理</span>
+                    </a>
+                    <ul class="sub">
+                        <li><a  href="#">查看现有厨师</a></li>
+                        <li><a  href="#">添加新厨师</a></li>
+                    </ul>
+                </li>
+
+                <li class="sub-menu">
+                    <a class="active" href="javascript:;" >
+                        <i class="fa fa-gear"></i>
+                        <span>服务员信息管理</span>
+                    </a>
+                    <ul class="sub">
+                        <li><a  href="#">查看现有服务员</a></li>
+                        <li><a  href="#">添加新服务员</a></li>
+                    </ul>
+                </li>
+
+                <li class="sub-menu">
+                    <a href="javascript:;" >
+                        <i class="fa fa-gear"></i>
+                        <span>房间信息管理</span>
+                    </a>
+                    <ul class="sub">
+                        <li><a  href="#">大厅桌子</a></li>
+                        <li><a  href="#">包间</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+            <!-- sidebar menu end-->
+        </div>
+    </aside>
+    <!--sidebar end-->
+    <!--main content start-->
+    <section id="main-content">
+            <section class="wrapper site-min-height">
+                <!-- page start-->
+                <div class="col-lg-12">
+                      <section class="panel panel-primary">
+                          <header class="panel-heading">
+                              添加新服务员
+                          </header>
+                          <div class="panel-body">
+                              <div class=" form">
+                                  <form class="cmxform form-horizontal tasi-form" id="commentForm" method="get" action="">
+                                      <div class="form-group ">
+                                          <label class="control-label col-lg-2">工号：</label>
+                                          <div class="col-lg-10">
+                                              <label for="cname" class="control-label">2015121201</label>
+                                          </div>
+                                      </div>
+                                      <div class="form-group ">
+                                          <label for="cemail" class="control-label col-lg-2">姓名：</label>
+                                          <div class="col-lg-10">
+                                              <input class="form-control " required />
+                                          </div>
+                                      </div>
+                                      <div class="form-group ">
+                                          <label for="curl" class="control-label col-lg-2">年龄：</label>
+                                          <div class="col-lg-10">
+                                              <input class="form-control "  required />
+                                          </div>
+                                      </div>
+                                      <div class="form-group">
+                                        <label for="curl" class="control-label col-lg-2">性别：</label>
+                                        <div class="col-lg-10">
+                                            <select class="form-control m-bot15">
+                                                <option>男</option>
+                                                <option>女</option>
+                                            </select>
+                                        </div>
+                                      </div>
+                                      <div class="form-group">
+                                        <label for="curl" class="control-label col-lg-2">分配指定房间：</label>
+                                        <div class="col-lg-10">
+                                            <select class="form-control m-bot15">
+                                                <option>-----大厅-----</option>
+                                                <option>A</option>
+                                                <option>B</option>
+                                                <option>C</option>
+                                            </select>
+                                        </div>
+                                      </div>
+                                      <div class="form-group">
+                                          <div class="col-lg-offset-2 col-lg-10">
+                                              <button class="btn btn-danger" type="submit">添加</button>
+                                              <button class="btn btn-default" type="button">取消</button>
+                                          </div>
+                                      </div>
+                                  </form>
+                              </div>
+
+                          </div>
+                      </section>
+                  </div>
+                <!-- page end-->
+            </section>
+        </section>
+    <!--main content end-->
+
+</section>
+
+<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">添加成功</h4>
+            </div>
+            <div class="modal-body">
+                新菜品已添加，请查看确定。
+            </div>
+            <div class="modal-footer">
+                <button data-dismiss="modal" class="btn btn-warning " type="button">确定</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- js placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-fileupload.js"></script>
+    <script class="include" type="text/javascript" src="js/jquery.dcjqaccordion.2.7.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <script src="js/jquery.nicescroll.js" type="text/javascript"></script>
+    <script src="js/respond.min.js" ></script>
+    <!--right slidebar-->
+    <script src="js/slidebars.min.js"></script>
+    <!--common script for all pages-->
+    <script src="js/common-scripts.js"></script>
+    
+  </body>
+</html>

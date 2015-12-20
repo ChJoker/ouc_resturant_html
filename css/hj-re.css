@@ -1,0 +1,29 @@
+.panel-body-re{
+	padding: 5px 15px;
+}
+.al-kind{
+	padding: 8px 0px;
+	margin: 5px 20px;
+	background: #20DEAE;
+	border-radius: 5px;
+	text-align: center;
+	color:#fff;
+	font-size:16px;
+	font-weight:bold;
+	position: relative;
+
+}
+.al-kind>.fa{
+	position:absolute;
+	left: 5px;top:5px;
+	cursor: pointer;
+}
+.la-color{
+	color:#58C9F3;
+}
+.tb-size{
+	font-size:15px;
+}
+.tb-size thead th{
+	color:#337AB7;
+}

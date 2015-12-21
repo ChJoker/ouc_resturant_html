@@ -81,21 +81,15 @@
                     <div class="panel-heading acc-span"><span>桌号：</span>001&nbsp;&nbsp;&nbsp;&nbsp;<span>服务员：</span>2015122101</div>
                     <table class="table">
                       <thead>
-                        <th>菜名</th><th>厨师</th><th>价格</th>
+                        <th>菜名</th><th>类别</th><th>数量</th><th>价格</th>
                       </thead>
                       <tr>
-                          <td>土豆丝</td><td>2015122102</td><td>￥30</td>
-                      </tr>
-                      <tr>
-                          <td>土豆丝</td><td>2015122102</td><td>￥30</td>
-                      </tr>
-                      <tr>
-                          <td>土豆丝</td><td>2015122102</td><td>￥30</td>
+                          <td>土豆丝</td><td>家常菜</td><td>1</td><td>￥30</td>
                       </tr>
                     </table>
                     <div class="acc-foot">
                       <h5>总价格：<span>￥90.00</span></h5>
-                      <button class="btn btn-danger">结账</button>
+                      <button class="btn btn-danger btn-acc-end">结账</button>
                     </div>
                   </section>
                 </div>
@@ -104,30 +98,24 @@
                     <div class="panel-heading acc-span"><span>桌号：</span>001&nbsp;&nbsp;&nbsp;&nbsp;<span>服务员：</span>2015122101</div>
                     <table class="table">
                       <thead>
-                        <th>菜名</th><th>厨师</th><th>价格</th>
+                        <th>菜名</th><th>类别</th><th>数量</th><th>价格</th>
                       </thead>
                       <tr>
-                          <td>土豆丝</td><td>2015122102</td><td>￥30</td>
+                          <td>土豆丝</td><td>家常菜</td><td>1</td><td>￥30</td>
                       </tr>
                       <tr>
-                          <td>土豆丝</td><td>2015122102</td><td>￥30</td>
+                          <td>土豆丝</td><td>家常菜</td><td>1</td><td>￥30</td>
                       </tr>
                       <tr>
-                          <td>土豆丝</td><td>2015122102</td><td>￥30</td>
-                      </tr>
-                       <tr>
-                          <td>土豆丝</td><td>2015122102</td><td>￥30</td>
+                          <td>土豆丝</td><td>家常菜</td><td>1</td><td>￥30</td>
                       </tr>
                       <tr>
-                          <td>土豆丝</td><td>2015122102</td><td>￥30</td>
-                      </tr>
-                      <tr>
-                          <td>土豆丝</td><td>2015122102</td><td>￥30</td>
+                          <td>土豆丝</td><td>家常菜</td><td>1</td><td>￥30</td>
                       </tr>
                     </table>
                     <div class="acc-foot">
                       <h5>总价格：<span>￥90.00</span></h5>
-                      <button class="btn btn-danger">结账</button>
+                      <button class="btn btn-danger btn-acc-end">结账</button>
                     </div>
                   </section>
                 </div>
@@ -136,24 +124,28 @@
                     <div class="panel-heading acc-span"><span>桌号：</span>001&nbsp;&nbsp;&nbsp;&nbsp;<span>服务员：</span>2015122101</div>
                     <table class="table">
                       <thead>
-                        <th>菜名</th><th>厨师</th><th>价格</th>
+                        <th>菜名</th><th>类别</th><th>数量</th><th>价格</th>
                       </thead>
                       <tr>
-                          <td>土豆丝</td><td>2015122102</td><td>￥30</td>
+                          <td>土豆丝</td><td>家常菜</td><td>1</td><td>￥30</td>
                       </tr>
                       <tr>
-                          <td>土豆丝</td><td>2015122102</td><td>￥30</td>
+                          <td>土豆丝</td><td>家常菜</td><td>1</td><td>￥30</td>
                       </tr>
                       <tr>
-                          <td>土豆丝</td><td>2015122102</td><td>￥30</td>
+                          <td>土豆丝</td><td>家常菜</td><td>1</td><td>￥30</td>
+                      </tr>
+                      <tr>
+                          <td>土豆丝</td><td>家常菜</td><td>1</td><td>￥30</td>
                       </tr>
                     </table>
                     <div class="acc-foot">
                       <h5>总价格：<span>￥90.00</span></h5>
-                      <button class="btn btn-danger">结账</button>
+                      <button class="btn btn-danger btn-acc-end">结账</button>
                     </div>
                   </section>
                 </div>
+                
               </div>
               <!-- page end-->
           </section>
@@ -176,7 +168,14 @@
 
     <!--common script for all pages-->
     <script src="js/common-scripts.js"></script>
-
+    
+    <script>
+      $(".btn-acc-end").click(function(event) {
+        $(this).parents(".col-lg-6").fadeOut('slow', function() {
+          $(this).parents(".col-lg-6").remove();
+        });
+      });
+    </script>
 
   </body>
 </html>

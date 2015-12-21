@@ -1,6 +1,9 @@
 .panel-body-re{
 	padding: 5px 15px;
 }
+.text-center>h4{
+	padding-bottom: 5px;
+}
 .al-kind{
 	padding: 8px 0px;
 	margin: 5px 20px;
@@ -11,7 +14,6 @@
 	font-size:16px;
 	font-weight:bold;
 	position: relative;
-
 }
 .al-kind>.fa{
 	position:absolute;
@@ -26,4 +28,49 @@
 }
 .tb-size thead th{
 	color:#337AB7;
+}
+.top-r span{
+	color: #FF6C60;
+}
+#i-total-num{
+	width: 20px;height: 20px;
+	border-radius: 50%;
+	background: #FF6C60;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+	line-height: 20px;
+	position: relative;
+	top: -34px;left: 160px;
+}
+.order-warn{
+	float: left;
+	padding: 14px 0 0 10px;
+	color: #FF6C60;
+	font-weight: bold;
+}
+.panel-midhead{
+	text-align: center;
+	color:#FFF;
+	background: #41CAC0;
+}
+.btn-order{
+	background: #F67A6E none repeat scroll 0% 0%;
+	color: #FFF;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-family: "Open Sans",sans-serif;
+	box-shadow: 0px 4px #E56B60;
+	margin-bottom: 20px;
+}
+.order-info{
+	text-align: center;
+}
+.order-info span{
+	font-size: 16px;
+	color:#FF6C60;
+}
+.tb-cook-head>thead{
+	background: #337AB7;
+	color:#fff;
 }

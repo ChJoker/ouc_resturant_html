@@ -74,3 +74,17 @@
 	background: #337AB7;
 	color:#fff;
 }
+.acc-span span{
+	font-size: 14px;
+	font-weight: bold;
+}
+.acc-foot{
+	text-align: right;
+	padding: 5px 20px 10px 0;
+}
+.acc-foot>h5{
+	font-weight: bold;
+}
+.acc-foot span{
+	color:#ff6c60;
+}

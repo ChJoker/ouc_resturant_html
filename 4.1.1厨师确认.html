@@ -72,55 +72,24 @@
                 <!-- page start-->
                 <div class="row">
                     <div class="col-lg-6">
-                        <section class="panel">
-                            <table class="table table-hover tb-cook-head">
-                                <thead>
-                                    <th>菜名</th><th>类别</th><th>状态</th>
-                                </thead>
-                                <tr>
-                                    <td>锅包肉</td><td>东北菜</td><td><button class="btn btn-xs btn-danger">正做</button></td>
-                                </tr>
-                                <tr>
-                                    <td>土豆丝</td><td>家常菜</td><td><button class="btn btn-xs" disabled="disabled">完成</button></td>
-                                </tr>
-                            </table>
-                        </section>
-                    </div>
-                    <div class="col-lg-6">
-                        <section class="panel">
-                            <table class="table table-hover tb-cook-head">
-                                <thead>
-                                    <th>菜名</th><th>类别</th><th>状态</th>
-                                </thead>
-                                <tr>
-                                    <td>锅包肉</td><td>东北菜</td><td><button class="btn btn-xs btn-danger">正做</button></td>
-                                </tr>
-                                <tr>
-                                    <td>土豆丝</td><td>家常菜</td><td><button class="btn btn-xs" disabled="disabled">完成</button></td>
-                                </tr>
-                                 <tr>
-                                    <td>锅包肉</td><td>东北菜</td><td><button class="btn btn-xs btn-danger">正做</button></td>
-                                </tr>
-                                <tr>
-                                    <td>土豆丝</td><td>家常菜</td><td><button class="btn btn-xs" disabled="disabled">完成</button></td>
-                                </tr>
-                            </table>
-                        </section>
-                    </div>
-                    <div class="col-lg-6">
-                        <section class="panel">
-                            <table class="table table-hover tb-cook-head">
-                                <thead>
-                                    <th>菜名</th><th>类别</th><th>状态</th>
-                                </thead>
-                                <tr>
-                                    <td>锅包肉</td><td>东北菜</td><td><button class="btn btn-xs btn-danger">正做</button></td>
-                                </tr>
-                                <tr>
-                                    <td>土豆丝</td><td>家常菜</td><td><button class="btn btn-xs" disabled="disabled">完成</button></td>
-                                </tr>
-                            </table>
-                        </section>
+                        <div class="panel">
+                            <div class="panel-heading panel-midhead">当前需做菜</div>
+                            <div class="col-sm-6" style="border-radius:6px;margin-top:10px;">
+                                <img src="img/dish-img1.png" class="img-responsive"> 
+                            </div>
+                            <div class="order-info">
+                                <h5>菜名： <span id="order-all-price">锅包肉</span></h5>
+                                <h5>类别： 东北菜</h5>
+                            </div>
+                            <div class="panel-body">
+                                <div class="col-lg-6">
+                                    <button class="btn btn-order btn-block" data-toggle="modal" href="#myModal2">完成制作</button>
+                                </div>
+                                <div class="col-lg-6">
+                                    <button class="btn btn-order btn-block" data-toggle="modal" href="#myModal2">缺少材料</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <!-- page end-->

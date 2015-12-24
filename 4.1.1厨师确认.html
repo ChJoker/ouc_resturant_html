@@ -83,10 +83,10 @@
                             </div>
                             <div class="panel-body">
                                 <div class="col-lg-6">
-                                    <button class="btn btn-order btn-block" data-toggle="modal" href="#myModal2">完成制作</button>
+                                    <button class="btn btn-order btn-block" data-toggle="modal">完成制作</button>
                                 </div>
                                 <div class="col-lg-6">
-                                    <button class="btn btn-order btn-block" data-toggle="modal" href="#myModal2">缺少材料</button>
+                                    <button class="btn btn-order btn-block" data-toggle="modal">缺少材料</button>
                                 </div>
                             </div>
                         </div>
@@ -110,16 +110,6 @@
 
     <!--common script for all pages-->
     <script src="js/common-scripts.js"></script>
-    
-    <script>
-        $(".btn").click(function(event) {
-            $(this).removeClass('btn-danger');
-            $(this).html("完成");
-            $(this).attr({
-                disabled: 'disabled',
-            });
-        });
-    </script>
 
   </body>
 </html>

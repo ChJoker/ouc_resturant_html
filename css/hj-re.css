@@ -96,3 +96,12 @@ div.add-num,div.reduce-num,div.cook-num{
 	line-height: 20px;
 	cursor: pointer;
 }
+.red-round{
+	width: 30px;height: 30px;
+	border-radius: 50%;
+	background: #FF6C60;
+	color: #fff;
+	text-align: center;
+	line-height: 20px;
+	font-weight: bold;
+}
